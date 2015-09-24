@@ -10,6 +10,10 @@ __Yes!, no semicolons:__
 - [Are Semicolons Necessary in JavaScript?](https://www.youtube.com/watch?v=gsfbh17Ax9I)
 - [An Open Letter to JavaScript Leaders Regarding Semicolons](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)
 
+## Installation
+
+`apm install standardjs-snippets` 
+
 ## Snippets
 
 Snippets are optimized to be short and easy to remember. Some snippets are "chainable" and render differently when preceded by a "."
