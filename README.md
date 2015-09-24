@@ -1,4 +1,4 @@
-# JavaScript Snippets for Atom (Standard Style)
+# Standard JavaScript Snippets for Atom
 
 A collection of ES6 snippets for faster JavaScript development in [Atom Editor](https://atom.io/).  
 
