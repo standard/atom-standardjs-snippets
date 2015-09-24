@@ -1,0 +1,28 @@
+{
+  "name": "standardjs-snippets",
+  "main": "./lib/standardjs-snippets",
+  "version": "0.1.0",
+  "description": "A collenction of JavaScript snippets for Atom, StandardJS Style ",
+  "repository": "https://github.com/gaboesquivel/atom-standardjs-snippets",
+  "author": "Gabo Esquivel <hello@gaboesquivel.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "atom": ">0.200.0"
+  },
+  "keywords": [
+    "javascript",
+    "snippets",
+    "es6",
+    "productivity",
+    "nodejs"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "standardjs-snippets:end-line-comma",
+      "standardjs-snippets:end-new-line",
+      "standardjs-snippets:wrap-block"
+    ]
+  },
+  "dependencies": {}
+}

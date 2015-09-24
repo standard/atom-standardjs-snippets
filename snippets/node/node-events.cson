@@ -1,0 +1,11 @@
+".source.js":
+  "event handler":
+    prefix: "on"
+    body: """
+    ${1:emitter}.on('${2:event}', (${3:arguments}) => {
+    \t${0}
+    });
+    """
+  "chain event handler":
+    prefix: ".on"
+    body: ".on('${2:event}', (${3:arguments}) => {${0}})"

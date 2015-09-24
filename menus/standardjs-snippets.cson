@@ -1,0 +1,13 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'StandardJS Snippets'
+      'submenu': [
+        {'label': 'End line and return', 'command': 'standardjs-snippets:end-new-line'}
+        {'label': 'End line with comma', 'command': 'standardjs-snippets:end-line-comma'}
+        {'label': 'Insert or remove block', 'command': 'standardjs-snippets:wrap-block'}
+      ]
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+".source.js":
+  "addEventListener":
+    prefix: "ae"
+    body: """
+    ${1:document}.addEventListener('${2:event}', ${3:ev} => {
+    \t${0}
+    })
+    """
+  "getElementById":
+    "prefix": "gi"
+    "body": "${1:document}.getElementById('${2:id}')"
+  "getElementsByClassName":
+    "prefix": "gc"
+    "body": "${1:document}.getElementsByClassName('${2:class}')"
+  "getElementsByTagName":
+    "prefix": "gt"
+    "body": "${1:document}.getElementsByTagName('${2:tag}')"
+  "querySelector":
+    "prefix": "qs"
+    "body": "${1:document}.querySelector('${2:selector}')"
+  "querySelectorAll":
+    "prefix": "qsa"
+    "body": "${1:document}.querySelectorAll('${2:selector}')"
+  "createDocumentFragment":
+    "prefix": "cdf"
+    "body": "${1:document}.createDocumentFragment(${2:elem})"
+  "createElement":
+    "prefix": "cel"
+    "body": "${1:document}.createElement(${2:elem})"
+  "classList.add":
+    "prefix": "ca"
+    "body": "${1:el}.classList.add('${2:class}')"
+  "classList.remove":
+    "prefix": "cr"
+    "body": "${1:el}.classList.remove('${2:class}')"
+  "classList.toggle":
+    "prefix": "ct"
+    "body": "${1:el}.classList.toggle('${2:class}')"
+  "getAttribute":
+    "prefix": "ga"
+    "body": "${1:el}.getAttribute('${2:attr}')"
+  "removeAttribute":
+    "prefix": "ra"
+    "body": "${1:el}.removeAttribute('${2:attr}')"
+  "setAttribute":
+    "prefix": "sa"
+    "body": "${1:el}.setAttribute('${2:attr}', ${3:value})"
+  "appendChild":
+    "prefix": "ac"
+    "body": "${1:el}.appendChild(${2:elem})"
+  "removeChild":
+    "prefix": "rc"
+    "body": "${1:el}.removeChild(${2:elem})"

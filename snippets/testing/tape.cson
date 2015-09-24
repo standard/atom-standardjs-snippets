@@ -1,0 +1,8 @@
+".source.js":
+  "describe":
+    prefix: "tt"
+    body: """
+    test("${1:description}", function (t) {
+    \t${0}
+    })
+    """
