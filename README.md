@@ -13,7 +13,7 @@ __Yes!, no semicolons:__
 
 ## Installation
 
-`apm install standardjs-snippets` 
+`apm install standardjs-snippets`
 
 ## Snippets
 
@@ -693,6 +693,9 @@ Please read the [contributing guidelines](contributing.md)
 
 # Related Repositories
 - [Standard AngularJS Snippets](https://github.com/gaboesquivel/atom-standard-angularjs-snippets)
+- [Standard Linter](https://github.com/ricardofbarros/linter-js-standard)
+- [Standard Formatter](https://github.com/maxogden/standard-format)
+
 
 # License
 
