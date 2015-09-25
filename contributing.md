@@ -9,7 +9,7 @@ before submitting your issue please check that you've completed the following st
 * Made sure you're on the latest version
 * Used the search feature to ensure that the bug hasn't been reported before
 
-[Submit your issue](https://github.com/gaboesquivel/atom-standard-angularjs-snippets/issues)
+[Submit your issue](https://github.com/gaboesquivel/atom-standardjs-snippets/issues)
 
 ## Pull Request Guidelines
 
