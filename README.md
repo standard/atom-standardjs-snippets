@@ -524,12 +524,12 @@ ${1:document}.getElementById('${2:id}')
 
 #### `gc⇥` getElementsByClassName
 ```js
-${1:document}.getElementsByClassName('${2:class}')
+Array.from(${1:document}.getElementsByClassName('${2:class}'))
 ```
 
 #### `gt⇥` getElementsByTagName
 ```js
-${1:document}.getElementsByTagName('${2:tag}')
+Array.from(${1:document}.getElementsByTagName('${2:tag}'))
 ```
 
 #### `qs⇥` querySelector
@@ -539,7 +539,7 @@ ${1:document}.querySelector('${2:selector}')
 
 #### `qsa⇥` querySelectorAll
 ```js
-${1:document}.querySelectorAll('${2:selector}')
+Array.from(${1:document}.querySelectorAll('${2:selector}'))
 ```
 
 ### `cdf⇥` createDocumentFragment

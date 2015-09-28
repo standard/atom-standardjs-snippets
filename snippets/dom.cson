@@ -11,16 +11,16 @@
     "body": "${1:document}.getElementById('${2:id}')"
   "getElementsByClassName":
     "prefix": "gc"
-    "body": "${1:document}.getElementsByClassName('${2:class}')"
+    "body": "Array.from(${1:document}.getElementsByClassName('${2:class}'))"
   "getElementsByTagName":
     "prefix": "gt"
-    "body": "${1:document}.getElementsByTagName('${2:tag}')"
+    "body": "Array.from(${1:document}.getElementsByTagName('${2:tag}'))"
   "querySelector":
     "prefix": "qs"
     "body": "${1:document}.querySelector('${2:selector}')"
   "querySelectorAll":
     "prefix": "qsa"
-    "body": "${1:document}.querySelectorAll('${2:selector}')"
+    "body": "Array.from(${1:document}.querySelectorAll('${2:selector}'))"
   "createDocumentFragment":
     "prefix": "cdf"
     "body": "${1:document}.createDocumentFragment(${2:elem})"
