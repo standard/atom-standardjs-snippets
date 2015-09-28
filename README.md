@@ -2,7 +2,7 @@
 
 A collection of ES6 snippets for faster JavaScript development in [Atom Editor](https://atom.io/).  
 
-This collection is complementary to [atom/language-javascript](https://github.com/atom/language-javascript). It's based on [extrabacon/atom-turbo-javascript](extrabacon/atom-turbo-javascript) and it enforces [standardjs code style](http://standardjs.com/).
+This collection is complementary to [atom/language-javascript](https://github.com/atom/language-javascript). It's based on [extrabacon/atom-turbo-javascript](https://github.com/extrabacon/atom-turbo-javascript) and it enforces [standardjs code style](http://standardjs.com/).
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
