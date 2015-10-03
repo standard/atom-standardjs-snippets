@@ -1,7 +1,10 @@
 ".source.js":
   "Node callback":
     prefix: "cb"
-    body: "function (err, ${1:value}) {${0}}"
+    body: """function (err, ${1:value}) {
+    \tif (err) throw err
+    \t${0}
+    }"""
   "Promise":
     prefix: "p",
     body: """
