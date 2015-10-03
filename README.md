@@ -606,7 +606,10 @@ ${1:document}.removeAttribute('${2:attr}');
 
 #### `cb⇥` Node.js style callback
 ```js
-function (err${1:, value}) {${0}}
+function (err, ${1:value}) {
+  if (err) throw err
+  t${0}
+}
 ```
 
 #### `re⇥` require a module
