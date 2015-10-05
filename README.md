@@ -699,12 +699,15 @@ Please read the [contributing guidelines](contributing.md)
 - [Standard Linter](https://github.com/ricardofbarros/linter-js-standard)
 - [Standard Formatter](https://github.com/maxogden/standard-format)
 
+# Alternatives to Standard Style
+- [Semistandard](https://github.com/Flet/semistandard) - standard, with semicolons
+- [XO](https://github.com/sindresorhus/xo) - JavaScript happiness style, by Sindre Sorhus
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2015, Gabo Esquivel
+Copyright (c) 2015, [Gabo Esquivel](http://gaboesquivel.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
