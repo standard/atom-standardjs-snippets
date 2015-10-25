@@ -437,6 +437,12 @@ import ${1:*} from '${2:module}'
 import ${1:*} as ${2:name} from '${3:module}'
 ```
 
+#### `imd⇥` module import destructuring
+```js
+"":
+import {$1} from '${2:module}'
+```
+
 ### BDD testing (Mocha, Jasmine, etc.)
 
 #### `desc⇥` describe
