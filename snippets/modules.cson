@@ -13,4 +13,4 @@
     body: "import ${1:*} as ${2:name} from '${3:module}'"
   "import module destructured":
     prefix: "imd"
-    body: "import {$1} from '${2:module}'"
+    body: "import {$1} from '${3:module}'"
