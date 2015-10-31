@@ -49,3 +49,23 @@
   "chain find":
     prefix: ".find"
     body: ".find((${1:item}) => {${0}})"
+  "every":
+    prefix: "every"
+    body: """
+    ${1:iterable}.every((${2:item}) => {
+    \t${0}
+    })
+    """
+  "chain every":
+    prefix: ".every"
+    body: ".every((${1:item}) => {${0}})"
+  "some":
+    prefix: "some"
+    body: """
+    ${1:iterable}.some((${2:item}) => {
+    \t${0}
+    })
+    """
+  "chain some":
+    prefix: ".some"
+    body: ".some((${1:item}) => {${0}})"

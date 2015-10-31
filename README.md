@@ -260,6 +260,20 @@ ${1:iterable}.find((${2:item}) => {
 })
 ```
 
+#### `every⇥` every function (chainable)
+```js
+${1:iterable}.every((${2:item}) => {
+  ${0}
+})
+```
+
+#### `some⇥` some function (chainable)
+```js
+${1:iterable}.some((${2:item}) => {
+  ${0}
+})
+```
+
 ### Objects and classes
 
 #### `c⇥` class (ES6)
