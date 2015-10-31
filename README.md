@@ -453,7 +453,6 @@ import ${1:*} as ${2:name} from '${3:module}'
 
 #### `imd⇥` module import destructuring
 ```js
-"":
 import {$1} from '${2:module}'
 ```
 
@@ -715,7 +714,6 @@ More than happy to accept external contributions to the project in the form of f
 Please read the [contributing guidelines](contributing.md)
 
 # Related Repositories
-- [Standard AngularJS Snippets](https://github.com/gaboesquivel/atom-standard-angularjs-snippets)
 - [Standard Linter](https://github.com/ricardofbarros/linter-js-standard)
 - [Standard Formatter](https://github.com/maxogden/standard-format)
 
