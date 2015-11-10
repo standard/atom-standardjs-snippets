@@ -60,12 +60,12 @@ let ${1:name}
 let ${1:name} = ${2:value}
 ```
 
-#### `co⇥` const statement
+#### `c⇥` const statement
 ```js
 const ${1:name}
 ```
 
-#### `co=⇥` const assignment
+#### `c=⇥` const assignment
 ```js
 const ${1:name} = ${2:value}
 ```
@@ -276,7 +276,7 @@ ${1:iterable}.some((${2:item}) => {
 
 ### Objects and classes
 
-#### `c⇥` class (ES6)
+#### `cs⇥` class (ES6)
 ```js
 class ${1:name} {
   constructor(${2:arguments}) {
@@ -285,7 +285,7 @@ class ${1:name} {
 }
 ```
 
-#### `cex⇥` child class (ES6)
+#### `csx⇥` child class (ES6)
 ```js
 class ${1:name} extends ${2:base} {
   constructor(${2:arguments}) {
@@ -585,7 +585,7 @@ ${1:document}.appendChild(${2:elem});
 ${1:document}.removeChild(${2:elem});
 ```
 
-### `ca⇥` classList.add
+### `cla⇥` classList.add
 
 ```js
 ${1:document}.classList.add('${2:class}');
@@ -694,7 +694,6 @@ console.error(${0})
 ```js
 console.warn(${0})
 ```
-
 
 ## Commands
 

@@ -1,6 +1,6 @@
 ".source.js":
   "class":
-    prefix: "c"
+    prefix: "cs"
     body: """
     class ${1:name} {
     \tconstructor(${2:arguments}) {
@@ -9,7 +9,7 @@
     }
     """
   "class extends":
-    prefix: "cex"
+    prefix: "csx"
     body: """
     class ${1:name} extends ${2:base} {
     \tconstructor(${3:arguments}) {
