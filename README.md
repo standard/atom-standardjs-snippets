@@ -260,6 +260,20 @@ ${1:iterable}.find((${2:item}) => {
 })
 ```
 
+#### `every⇥` every function (chainable)
+```js
+${1:iterable}.every((${2:item}) => {
+  ${0}
+})
+```
+
+#### `some⇥` some function (chainable)
+```js
+${1:iterable}.some((${2:item}) => {
+  ${0}
+})
+```
+
 ### Objects and classes
 
 #### `c⇥` class (ES6)
@@ -435,6 +449,11 @@ import ${1:*} from '${2:module}'
 #### `ima⇥` module import as
 ```js
 import ${1:*} as ${2:name} from '${3:module}'
+```
+
+#### `imd⇥` module import destructuring
+```js
+import {$1} from '${2:module}'
 ```
 
 ### BDD testing (Mocha, Jasmine, etc.)
@@ -695,7 +714,6 @@ More than happy to accept external contributions to the project in the form of f
 Please read the [contributing guidelines](contributing.md)
 
 # Related Repositories
-- [Standard AngularJS Snippets](https://github.com/gaboesquivel/atom-standard-angularjs-snippets)
 - [Standard Linter](https://github.com/ricardofbarros/linter-js-standard)
 - [Standard Formatter](https://github.com/maxogden/standard-format)
 
