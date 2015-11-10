@@ -28,7 +28,7 @@
     "prefix": "cel"
     "body": "${1:document}.createElement(${2:elem})"
   "classList.add":
-    "prefix": "ca"
+    "prefix": "cla"
     "body": "${1:el}.classList.add('${2:class}')"
   "classList.remove":
     "prefix": "cr"
