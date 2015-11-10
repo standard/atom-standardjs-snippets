@@ -1,0 +1,12 @@
+".source.js":
+  "stateles component":
+    prefix: "rsc"
+    body: """
+    import React from 'react'
+
+    const ${1:name} = (props) => {
+    \t$return {0}
+    }
+
+    export default ${1:name}
+    """
