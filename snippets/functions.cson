@@ -5,7 +5,7 @@
   "named function":
     prefix: "fn"
     body: """
-    function ${1:name}(${2:arguments}) {
+    function ${1:name} (${2:arguments}) {
     \t${0}
     }
     """
