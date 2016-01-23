@@ -17,6 +17,12 @@
   "const assignment":
     prefix: "c="
     body: "const ${1:name} = ${2:value}"
+  "const assignment yielded":
+    prefix: "cy"
+    body: "const ${1:name} = yield ${2:value}"
+  "let assignment yielded":
+    prefix: "ly"
+    body: "let ${1:name} = yield ${2:value}"
   "const object":
     prefix: "co"
     body: """
