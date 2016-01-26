@@ -60,6 +60,11 @@ let ${1:name}
 let ${1:name} = ${2:value}
 ```
 
+#### `ly⇥` let yielded assignment
+```js
+let ${1:name} = yield ${2:value}
+```
+
 #### `c⇥` const statement
 ```js
 const ${1:name}
@@ -68,6 +73,11 @@ const ${1:name}
 #### `c=⇥` const assignment
 ```js
 const ${1:name} = ${2:value}
+```
+
+#### `cy⇥` const yielded assignment
+```js
+const ${1:name} = yield ${2:value}
 ```
 
 ### Flow Control
