@@ -1,7 +1,7 @@
 {
   "name": "standardjs-snippets",
   "main": "./lib/standardjs-snippets",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A collection of JavaScript snippets for Atom, StandardJS Style ",
   "repository": "https://github.com/gaboesquivel/atom-standardjs-snippets",
   "author": "Gabo Esquivel <hello@gaboesquivel.com>",
