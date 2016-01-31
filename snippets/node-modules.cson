@@ -2,9 +2,9 @@
   "require":
     prefix: "re"
     body: "require('${1:module}')"
-  "var module = require('module')":
-    prefix: "vre"
-    body: "var ${1:module} = require('${1:module}')"
+  "const module = require('module')":
+    prefix: "cre"
+    body: "const ${1:module} = require('${1:module}')"
   "exports.member":
     prefix: "em"
     body: "exports.${1:member} = ${2:value}"
