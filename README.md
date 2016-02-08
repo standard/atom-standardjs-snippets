@@ -645,9 +645,9 @@ function (err, ${1:value}) {
 ```js
 require('${1:module}')
 ```
-#### `vre⇥` require and assign a module
+#### `cre⇥` require and assign a module
 ```js
-var ${1:module} = require('${1:module}')
+const ${1:module} = require('${1:module}')
 ```
 
 #### `em⇥` export member
