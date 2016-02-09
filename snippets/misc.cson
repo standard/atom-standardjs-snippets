@@ -2,3 +2,9 @@
   "use strict":
     prefix: "us"
     body: "'use strict'"
+  "JSON.stringify()":
+    prefix: "js"
+    body: "JSON.stringify($0)"
+  "JSON.parse()":
+    prefix: "jp"
+    body: "JSON.parse($0)"
