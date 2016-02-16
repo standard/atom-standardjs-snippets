@@ -688,6 +688,16 @@ function (err, req, res, next) {
 'use strict'
 ```
 
+#### `js⇥` JSON Stringify
+```js
+'JSON.stringify($0)'
+```
+
+#### `jp⇥` JSON Parse
+```js
+'JSON.parse($0)'
+```
+
 ### Console
 
 #### `cl⇥` console.log
