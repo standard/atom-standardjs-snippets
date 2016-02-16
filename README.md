@@ -427,14 +427,14 @@ new Promise((resolve, reject) => {
 
 #### `then⇥` Promise.then (chainable)
 ```js
-${1:promise}.then(${2:value} => {
+${1:promise}.then((${2:value}) => {
   ${0}
 })
 ```
 
 #### `catch⇥` Promise.catch (chainable)
 ```js
-${1:promise}.catch(${2:err} => {
+${1:promise}.catch((${2:err}) => {
   ${0}
 })
 ```
