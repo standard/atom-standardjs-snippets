@@ -10,6 +10,7 @@ __Yes!, no semicolons:__
 - [Are Semicolons Necessary in JavaScript?](https://www.youtube.com/watch?v=gsfbh17Ax9I)
 - [An Open Letter to JavaScript Leaders Regarding Semicolons](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)
 - [JavaScript Semicolon Insertion - Everything You Need to Know](http://inimino.org/~inimino/blog/javascript_semicolons)
+- [Semicolons cannot save you! - FunFunFunction](https://www.youtube.com/watch?v=Qlr-FGbhKaI)
 
 ## Installation
 
