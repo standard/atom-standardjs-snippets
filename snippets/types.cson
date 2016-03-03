@@ -23,3 +23,6 @@
   "instanceof":
     prefix: "iof"
     body: "${1:source} instanceof ${2:Object}"
+  "Array.isArray()":
+    prefix: "ia"
+    body: "Array.isArray(${1:source})"
