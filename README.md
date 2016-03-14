@@ -416,6 +416,11 @@ typeof ${1:source} === '${2:undefined}'
 ${1:source} instanceof ${2:Object}
 ```
 
+#### `ia⇥` isArray
+```js
+Array.isArray(${1:source})
+```
+
 ### Promises
 
 #### `p⇥` new Promise (ES6)
