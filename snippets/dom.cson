@@ -6,6 +6,9 @@
     \t${0}
     })
     """
+  "removeEventListener":
+    "prefix": "rel"
+    "body": "${1:document}.removeEventListener('${2:event}', ${3:listener})"
   "getElementById":
     "prefix": "gi"
     "body": "${1:document}.getElementById('${2:id}')"
