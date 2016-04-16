@@ -50,3 +50,6 @@
   "Object.assign":
     prefix: "a"
     body: "Object.assign(${1:dest}, ${2:source})"
+  "Object.keys":
+    prefix: "ok"
+    body: "Object.keys(${1:obj})"
