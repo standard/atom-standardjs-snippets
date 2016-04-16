@@ -353,6 +353,16 @@ ${1:Class}.prototype.${2:methodName} = function (${3:arguments}) {
 }
 ```
 
+#### `ok` Object.keys
+```js
+Object.keys(${1:obj})
+```
+
+#### `a` Object.assign
+```js
+Object.assign(${1:dest}, ${2:source})
+```
+
 ### Returning values
 
 #### `r⇥` return
