@@ -29,6 +29,14 @@
     \t${0}
     }
     """
+  "let declaration and if statement":
+    prefix: "lif"
+    body: """
+    let ${1}
+    if (${0}) {
+    \t${1} = ${2}
+    }
+    """
   "for loop":
     prefix: "fl"
     body: """
