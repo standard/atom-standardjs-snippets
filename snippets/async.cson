@@ -1,4 +1,7 @@
 ".source.js":
+  "await":
+    prefix: "a"
+    body: "await ${0}"
   "Node callback":
     prefix: "cb"
     body: """function (err, ${1:value}) {
