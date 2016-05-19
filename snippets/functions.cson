@@ -9,6 +9,13 @@
     \t${0}
     }
     """
+  "async function":
+    prefix: "asf"
+    body: """
+    async function (${1:arguments}) {
+    \t${0}
+    }
+    """
   "immediately-invoked function expression":
     prefix: "iife"
     body: """
