@@ -32,7 +32,6 @@ For example, `.fe` renders a chain-friendly version of the "forEach" snippet, wh
 - [ES6 modules](#es6-modules)
 - [testing](#testing)
 - [console](#console)
-- [console](#console)
 - [timers](#timers)
 - [DOM](#dom)
 - [Node.js](#nodejs)
@@ -181,6 +180,13 @@ function (${1:arguments}) {${0}}
 #### `fn⇥` named function
 ```js
 function ${1:name}(${2:arguments}) {
+  ${0}
+}
+```
+
+#### `asf⇥` async function
+```js
+async function (${1:arguments}) {
   ${0}
 }
 ```
@@ -358,7 +364,7 @@ ${1:Class}.prototype.${2:methodName} = function (${3:arguments}) {
 Object.keys(${1:obj})
 ```
 
-#### `a` Object.assign
+#### `oa` Object.assign
 ```js
 Object.assign(${1:dest}, ${2:source})
 ```
@@ -711,12 +717,17 @@ function (err, req, res, next) {
 
 #### `js⇥` JSON Stringify
 ```js
-'JSON.stringify($0)'
+JSON.stringify($0)
 ```
 
 #### `jp⇥` JSON Parse
 ```js
-'JSON.parse($0)'
+JSON.parse($0)
+```
+
+#### `a⇥` await
+```js
+await ${0}
 ```
 
 ### Console
