@@ -772,11 +772,17 @@ Please read the [contributing guidelines](contributing.md)
 - [Semistandard](https://github.com/Flet/semistandard) - standard, with semicolons
 - [XO](https://github.com/sindresorhus/xo) - JavaScript happiness style, by Sindre Sorhus
 
+# Author Info
+
+Software engineer and consultant. I help companies develop software products and make technical decisions. I’m a proponent of devops, continuous delivery, lightweight agile methodologies and open source technology stacks.
+
+I occasionally blog at [gaboesquivel.com](http://gaboesquivel.com) and you can find me on twitter as [@gaboesquivel](https://twitter.com/gaboesquivel)
+
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2015, [Gabo Esquivel](http://gaboesquivel.com)
+Copyright (c) 2015, [Gabo Esquivel](http://gaboesquivel.com/about)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
