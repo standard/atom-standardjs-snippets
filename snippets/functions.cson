@@ -1,7 +1,7 @@
 ".source.js":
   "anonymous function":
     prefix: "f"
-    body: "function (${1:arguments}) {${0}}"
+    body: "function (${1:arguments}) { ${0} }"
   "named function":
     prefix: "fn"
     body: """

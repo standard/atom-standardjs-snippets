@@ -172,7 +172,7 @@ try {
 
 #### `f⇥` anonymous function
 ```js
-function (${1:arguments}) {${0}}
+function (${1:arguments}) { ${0} }
 ```
 
 #### `fn⇥` named function
