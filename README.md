@@ -177,7 +177,7 @@ function (${1:arguments}) {${0}}
 
 #### `fn⇥` named function
 ```js
-function ${1:name}(${2:arguments}) {
+function ${1:name} (${2:arguments}) {
   ${0}
 }
 ```
