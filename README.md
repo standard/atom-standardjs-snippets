@@ -1,8 +1,6 @@
 # Standard JavaScript Snippets for Atom
 
-A collection of ES6 snippets for faster JavaScript development in [Atom Editor](https://atom.io/).  
-
-This collection is complementary to [atom/language-javascript](https://github.com/atom/language-javascript). It's based on [extrabacon/atom-turbo-javascript](https://github.com/extrabacon/atom-turbo-javascript) and it enforces [standardjs code style](http://standardjs.com/).
+A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).  
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
