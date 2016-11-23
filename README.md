@@ -57,6 +57,14 @@ let ${1:name}
 let ${1:name} = ${2:value}
 ```
 
+#### `lif=⇥` let declaration and if statement
+```js
+let ${1}
+if (${0}) {
+  ${1} = ${2}
+}
+```
+
 #### `ly⇥` let yielded assignment
 ```js
 let ${1:name} = yield ${2:value}
