@@ -1,6 +1,6 @@
 # Standard JavaScript Snippets for Atom
 
-A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).  
+A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -243,6 +243,14 @@ function* (${1:arguments}) {
 function* ${1:name}(${1:arguments}) {
   ${0}
 }
+```
+
+#### `sf⇥` switch function based on object literals
+```js
+const ${1:name} = (${2:switching}) => ({
+    ${3:case}: ${4:value},
+  }[${2:switching}] || ${5:default value}
+)
 ```
 
 ### Iterables

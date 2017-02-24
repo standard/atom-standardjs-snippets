@@ -64,3 +64,11 @@
     \t${0}
     }
     """
+  "switch function":
+    prefix: "sf"
+    body: """
+    const ${1:name} = (${2:switching}) => ({
+        ${3:case}: ${4:value},
+      }[${2:switching}] || ${5:default value}
+    )
+    """
