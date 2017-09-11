@@ -5,7 +5,7 @@
   "method":
     prefix: "m"
     body: """
-    ${1:method}(${2:arguments}) {
+    ${1:method} (${2:arguments}) {
     \t${0}
     }
     """
