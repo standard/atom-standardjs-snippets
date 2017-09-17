@@ -309,7 +309,7 @@ ${1:iterable}.some((${2:item}) => {
 #### `cs⇥` class (ES6)
 ```js
 class ${1:name} {
-  constructor(${2:arguments}) {
+  constructor (${2:arguments}) {
     ${0}
   }
 }
@@ -318,7 +318,7 @@ class ${1:name} {
 #### `csx⇥` child class (ES6)
 ```js
 class ${1:name} extends ${2:base} {
-  constructor(${2:arguments}) {
+  constructor (${2:arguments}) {
     super(${2:arguments})
     ${0}
   }
@@ -337,7 +337,7 @@ JSON:
 
 #### `m⇥` method (ES6 syntax)
 ```js
-${1:method}(${2:arguments}) {
+${1:method} (${2:arguments}) {
   ${0}
 }
 ```
