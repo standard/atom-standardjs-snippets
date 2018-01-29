@@ -1,5 +1,7 @@
 # Standard JavaScript Snippets for Atom
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/standard/atom-standardjs-snippets.svg)](https://greenkeeper.io/)
+
 A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
