@@ -561,7 +561,7 @@ setTimeout(() => {
 
 #### `si⇥` setInterval
 ```js
-setTimeout(() => {
+setInterval(() => {
   ${0}
 }, ${1:delay})
 ```
